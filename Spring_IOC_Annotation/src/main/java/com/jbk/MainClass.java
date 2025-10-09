@@ -10,10 +10,13 @@ public class MainClass {
 		ApplicationContext context = new AnnotationConfigApplicationContext(ConfigClass.class);
 		Employee e = context.getBean(Employee.class);
 		System.out.println(e);
-		Employee e1 = context.getBean(Employee.class);
+//		Employee e1 = context.getBean(Employee.class);
 //		System.out.println(e1.hashCode());
 //		System.out.println(e.hashCode());
 //		System.out.println(e1 == e);
+		
+//		Demo e=context.getBean(Demo.class);
+//		System.out.println(e);
 
 }
 }
